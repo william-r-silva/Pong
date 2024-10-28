@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    outline: none;
+    overflow: hidden;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#board {
+    background: #FFF;
+    width: 100vw;
+    height: 100vh;
+}
+
+.popupBackground{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #0000007E;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup{
+    width: 50%;
+    max-height: 50%;
+
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.popup header{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: aliceblue;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 1.5rem;
+    height: 2em;
+}
+
+.popup main{
+    padding: 10px;
+    min-height: 75px;
+    background-color: white;
+}
+
+.popup footer{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: aliceblue;
+    
+    height: 3em;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.popup footer button{
+    background-color: grey;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+
+    min-height: 28px;
+    height: 100%;
+
+    min-width: 100px;
+
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+    color: white;
+    font-weight: bold;
+}

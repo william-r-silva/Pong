@@ -1,0 +1,19 @@
+{
+  "name": "pong",
+  "version": "1.0.0",
+  "description": "Online Pong",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev src/servers/websocket.ts"
+  },
+  "author": "William Rocha Silva",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/socket.io": "^3.0.1",
+    "express": "^4.21.1",
+    "socket.io": "^4.8.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.3"
+  }
+}
